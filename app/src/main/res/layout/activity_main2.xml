@@ -1,48 +1,3 @@
-### 仿照ios实现的wheelView，方便实现三极联动等城市选择，时间选择等效果
-
-
-![](http://ouvjn19yd.bkt.clouddn.com/S70921-17430465%5B1%5D.mp4)
-
-1.Add it in your root build.gradle at the end of repositories:
-
-```
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-```
-
-2.Add the dependency
-
-```
-dependencies {
-	        compile 'com.github.ALguojian:android-WheelVIew:v1.1'
-	}
-```
-
-|属性|说明|
-|-|-|
-|wheelview.setData()|设置数据|
-|wheelview.setDefault()|设置默认显示第几个|
-|setOnSelectListener|设置滑动监听|
-
-
-|XML属性|说明|
-|-|-|
-|app:itemNumber|显示个数|
-|app:lineColor="#ffff00"|分割线颜色|
-|app:normalTextColor="#555"|默认颜色|
-|app:selectedTextColor="#57caa1"|选中颜色|
-|app:selectedTextSize="22sp"|字体大小|
-
-更多用法如下所示：
-
-
-布局如下
-
-```
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -83,13 +38,13 @@ dependencies {
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:itemNumber="3"
-            app:lineColor="#cccccc"
+            app:lineColor="#ffff00"
             app:lineHeight="1.5dp"
             app:maskHight="32dp"
             app:noEmpty="true"
-            app:normalTextColor="#777"
+            app:normalTextColor="#555"
             app:normalTextSize="14sp"
-            app:selectedTextColor="#ff000000"
+            app:selectedTextColor="#57caa1"
             app:selectedTextSize="22sp"
             app:unitHight="50dp" />
 
@@ -112,10 +67,3 @@ dependencies {
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
-
-
-
-```
-
-
-
