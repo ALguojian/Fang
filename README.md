@@ -18,7 +18,7 @@ allprojects {
 
 ```
 dependencies {
-	        compile 'com.github.ALguojian:android-WheelVIew:v1.1'
+	         compile 'com.github.ALguojian:android-WheelVIew:v1.2'
 	}
 ```
 
