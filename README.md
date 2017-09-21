@@ -1,9 +1,11 @@
-[![](https://jitpack.io/v/helen-x/JitpackReleaseDemo.svg)](https://jitpack.io/#helen-x/JitpackReleaseDemo)
+
 
 ### 仿照ios实现的wheelView，方便实现三极联动等城市选择，时间选择等效果
 
 
 ![](http://ouvjn19yd.bkt.clouddn.com/video2gif_20170921_175658%5B1%5D.gif)
+
+[![](https://jitpack.io/v/ALguojian/android-WheelVIew.svg)](https://jitpack.io/#ALguojian/android-WheelVIew)
 
 1.Add it in your root build.gradle at the end of repositories:
 
