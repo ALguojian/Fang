@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/helen-x/JitpackReleaseDemo.svg)](https://jitpack.io/#helen-x/JitpackReleaseDemo)
+
 ### 仿照ios实现的wheelView，方便实现三极联动等城市选择，时间选择等效果
 
 
