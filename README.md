@@ -26,6 +26,12 @@ dependencies {
 	}
 ```
 
+> [点此下载APK](https://fir.im/vpft)
+
+## 或者扫码下载
+
+![WheelView](http://ouvjn19yd.bkt.clouddn.com/WheelView.png)
+
 |属性|说明|
 |-|-|
 |wheelview.setData()|设置数据|
